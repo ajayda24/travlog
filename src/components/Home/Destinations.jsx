@@ -9,24 +9,26 @@ import rightArrow from "@/assets/right-arrow.svg";
 
 export default function Destinations() {
   return (
-    <div className="flex flex-col justify-center px-20 mb-32">
-      <div className="flex justify-between">
+    <div className=" mt-20 flex flex-col justify-center px-4 lg:px-20 mb-32">
+      <div className="flex justify-between items-center">
         <div className="flex-col gap-2">
           <h3 className="text-2xl uppercase text-[#F85E9F] font-bold tracking-widest">
             Top Destination
           </h3>
-          <h5 className="text-5xl font-bold">Explore top destination</h5>
+          <h5 className="text-4xl lg:text-5xl font-bold">
+            Explore top destination
+          </h5>
         </div>
         <div className="flex gap-4">
-          <button className="outline outline-1 outline-slate-100 rounded-full hover:bg-[#5D50C6] p-1 px-6 shadow-md">
+          <button className="outline outline-1 outline-slate-100 rounded-full hover:bg-[#5D50C6] p-6 shadow-md">
             <img src={leftArrow} width={25} />
           </button>
-          <button className="outline outline-1 outline-slate-100 rounded-full hover:bg-[#5D50C6] p-1 px-6 shadow-md">
+          <button className="outline outline-1 outline-slate-100 rounded-full hover:bg-[#5D50C6] p-6 shadow-md">
             <img src={rightArrow} width={25} color="white" />
           </button>
         </div>
       </div>
-      <div className="flex justify-center gap-5 mt-14">
+      <div className="flex flex-wrap justify-center gap-5 mt-14">
         <DestinationCard
           image={destination1}
           title="Paradise Beach, Bantayan Island"

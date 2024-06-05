@@ -3,7 +3,7 @@ import logo from "@/assets/logo.svg";
 export default function Navbar() {
   return (
     <header>
-      <nav className="flex justify-between py-8 px-4 xl:px-14">
+      <nav className="flex justify-center sm:justify-between py-8 px-4 xl:px-14">
         <div className="flex justify-center items-center gap-4  xl:pl-16">
           <img src={logo} alt="" width={40} />
           <a href="#" className="font-bold text-2xl">
@@ -16,7 +16,7 @@ export default function Navbar() {
           <a href="/">Special Deals</a>
           <a href="/">Contact</a>
         </div>
-        <div className="flex items-center gap-8 text-sm font-semibold">
+        <div className="hidden sm:flex items-center gap-8 text-sm font-semibold">
           <a href="/">Log In</a>
           <a
             href="#"
