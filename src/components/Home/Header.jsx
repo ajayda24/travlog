@@ -17,8 +17,8 @@ export default function Header() {
             <h6>Explore the world!</h6>
             <img src={suitcase} alt="" />
           </div>
-          <div className="mb-16">
-            <h2 className="font-bold text-3xl  xl:text-7xl leading-tight">
+          <div className="md-4 md:mb-16 p-4">
+            <h2 className="font-bold text-4xl  xl:text-7xl leading-tight">
               Travel <span className="text-[#F85E9F]">top destination</span> of
               the world
             </h2>

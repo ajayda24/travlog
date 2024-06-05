@@ -14,7 +14,7 @@ export default function Services() {
           Our top value categories for you
         </h4>
       </div>
-      <div className="flex flex-wrap justify-center gap-10">
+      <div className="flex flex-wrap justify-center gap-10 mt-14">
         <ServiceCard
           title={"Best Tour Guide"}
           description={
