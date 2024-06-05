@@ -9,22 +9,22 @@ import rightArrow from "@/assets/right-arrow.svg";
 
 export default function Destinations() {
   return (
-    <div className=" mt-20 flex flex-col justify-center px-4 lg:px-20 mb-32">
-      <div className="flex justify-between items-center">
-        <div className="flex-col gap-2">
+    <div className=" mt-20 flex flex-col justify-center px-4 md:px-20 mb-32">
+      <div className="flex flex-wrap gap-4 justify-center md:justify-between items-center">
+        <div className="flex-col gap-2 text-center sm:text-left">
           <h3 className="text-2xl uppercase text-[#F85E9F] font-bold tracking-widest">
             Top Destination
           </h3>
-          <h5 className="text-4xl lg:text-5xl font-bold">
+          <h5 className="text-4xl md:text-5xl font-bold">
             Explore top destination
           </h5>
         </div>
         <div className="flex gap-4">
-          <button className="outline outline-1 outline-slate-100 rounded-full hover:bg-[#5D50C6] p-6 shadow-md">
+          <button className="outline outline-1 outline-slate-100 rounded-full hover:bg-[#5D50C6] p-5 shadow-md">
             <img src={leftArrow} width={25} />
           </button>
-          <button className="outline outline-1 outline-slate-100 rounded-full hover:bg-[#5D50C6] p-6 shadow-md">
-            <img src={rightArrow} width={25} color="white" />
+          <button className="outline outline-1 outline-slate-100 rounded-full hover:bg-[#5D50C6] p-5 shadow-md">
+            <img src={rightArrow} width={25} />
           </button>
         </div>
       </div>

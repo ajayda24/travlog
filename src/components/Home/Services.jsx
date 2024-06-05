@@ -6,11 +6,11 @@ import service3 from "@/assets/service-3.svg";
 export default function Services() {
   return (
     <div className="mt-20 flex flex-wrap justify-center text-center items-center ">
-      <div className="flex flex-col gap-3 px-4 lg:px-20 max-w-2xl w-full">
+      <div className="flex flex-col gap-3 px-4 md:px-20 max-w-2xl w-full">
         <h2 className="uppercase text-[#F85E9F] font-bold text-2xl tracking-widest">
           Services
         </h2>
-        <h4 className="font-bold text-2xl lg:text-5xl">
+        <h4 className="font-bold text-2xl md:text-5xl">
           Our top value categories for you
         </h4>
       </div>

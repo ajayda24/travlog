@@ -12,7 +12,7 @@ export default function Header() {
   return (
     <div>
       <div className="flex flex-col-reverse md:flex-row justify-center xl:justify-between items-center mt-10 xl:px-10">
-        <div className="max-w-lg w-full pl-4 lg:pl-16 mb-20">
+        <div className="max-w-lg w-full pl-4 md:pl-16 mb-20">
           <div className="flex gap-3 text-[#F85E9F] mb-16 px-6 shadow-sm rounded-full max-w-fit py-3 text-sm font-bold">
             <h6>Explore the world!</h6>
             <img src={suitcase} alt="" />
