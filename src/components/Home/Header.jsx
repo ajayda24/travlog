@@ -1,5 +1,5 @@
 import suitcase from "@/assets/suitcase.svg";
-import headerMain from "@/assets/headerMain.jpeg";
+import headerMain from "@/assets/headerMain.jpg";
 import demoButton from "@/assets/demoButton.svg";
 
 import company1 from "@/assets/company-1.svg";
